@@ -5,7 +5,7 @@
 Add to your Backstage app.
 ```bash
 # From your Backstage root directory
-yarn add --cwd packages/backend @cnoe-io/scaffolder-actions-plugin
+yarn add --cwd packages/backend @cnoe-io/plugin-scaffolder-actions
 ```
 ```bash
 # To be able to keep using the built-in actions.
@@ -23,7 +23,7 @@ import {
   createSanitizeResource,
   createVerifyDependency,
   createKubernetesApply,
-} from "@cnoe-io/scaffolder-actions";
+} from "@cnoe-io/plugin-scaffolder-actions";
 
 export default async function createPlugin(
   env: PluginEnvironment,
