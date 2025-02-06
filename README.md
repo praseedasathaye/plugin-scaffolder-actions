@@ -1,5 +1,13 @@
 # CNOE Scaffolder Actions Plugin
 
+The "cnoe-io/plugin-scaffolder-actions" repository is a collection of extended or custom actions for the Backstage Scaffolder plugin, designed to enhance the developer experience and enable more customized scaffolding workflows within the Backstage ecosystem. The actions are designed to be used alongside the built-in actions provided by the Backstage Scaffolder plugin. The actions are added to the list of available actions when setting up the Scaffolder in a Backstage application. By providing these custom actions, the repository allows Backstage users to extend the Scaffolder functionality to support their specific use cases and requirements, such as resource sanitization, dependency verification, and Kubernetes manifest deployment.
+
+Here are the three custom actions that can be used in Backstage Scaffolder templates:
+
+- ```cnoe:utils:sanitize```: Sanitizes (removes empty fields) from resources before further processing.
+- ```cnoe:verify:dependency```: Verifies dependencies for CNOE resources.
+- ```cnoe:kubernetes:apply```: Applies Kubernetes manifests to a template.
+
 ## Getting Started
 
 Add to your Backstage app.
